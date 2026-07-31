@@ -6,7 +6,7 @@
 DEFIN=100|EMPRESA=Cryptics|FILE=Download.txt|.REV=1.0
 
 [GENERAL]
-NAME=Crypto.zip|VERSION=2.7.0
+NAME=Crypto.zip|VERSION=2.9.0
 
 ' ------------------------------------------------------------------------
 ' Plantilla para Descargas Remotas download.txt
