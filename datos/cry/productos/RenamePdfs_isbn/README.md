@@ -125,8 +125,6 @@ You can edit these values by hand (with the app closed); they're applied the nex
 
 Estos valores se pueden editar a mano (con la app cerrada); se aplican en el siguiente arranque.
 
-### Compilar desde el código fuente
-
 ---
 
 <p align="center">
