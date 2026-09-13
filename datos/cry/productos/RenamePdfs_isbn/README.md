@@ -5,7 +5,7 @@
 <h1 align="center">RenamePdfs_isbn</h1>
 
 <p align="center">
-  Automatically rename your PDF and EPUB e-books by ISBN — title, publisher, subject, metadata, OCR and online cover, all in one click.<br>
+  Rename your PDF and EPUB e-books by ISBN — title, publisher, subject, metadata, OCR and online cover, all in one click.<br>
   <em>Renombra tus PDFs y EPUBs automáticamente por ISBN — título, editor, tema, metadatos, OCR y portada online, en un solo clic.</em>
 </p>
 
