@@ -78,8 +78,8 @@
 
 - Window size, column widths and log panel height.
 - Last used folder and file filter.
-- Interface language (`<idioma valor="en"/>` or `"es"`, English by default).
-- Preferred process priority (`<prioridad valor="tiempo_real"/>`, etc.).
+- Interface language (`<languaje value="en"/>` or `"es"`, English by default).
+- Preferred process priority (`<priority value="highest"/>`, etc.).
 - All interface colors (`<colores .../>`): panel background, field background, selection color, grid scrollbars, button colors, general text color, and the "Process detail" panel's background/text/selection colors.
 
 You can edit these values by hand (with the app closed); they're applied the next time it starts.
@@ -136,8 +136,8 @@ You can edit these values by hand (with the app closed); they're applied the nex
 
 - Tamaño de ventana, ancho de columnas y alto del panel de log.
 - Última carpeta y filtro de archivos usados.
-- Idioma de la interfaz (`<idioma valor="en"/>` o `"es"`, inglés por defecto).
-- Prioridad de proceso preferida (`<prioridad valor="tiempo_real"/>`, etc.).
+- Idioma de la interfaz (`<languaje value="en"/>` o `"es"`, inglés por defecto).
+- Prioridad de proceso preferida (`<priority value="highest"/>`, etc.).
 - Todos los colores de la interfaz (`<colores .../>`): fondo del panel, fondo de campos, color de selección, barras del grid, colores de botones, color de texto general, y fondo/texto/selección del panel "Detalle del proceso".
 
 Estos valores se pueden editar a mano (con la app cerrada); se aplican en el siguiente arranque.
