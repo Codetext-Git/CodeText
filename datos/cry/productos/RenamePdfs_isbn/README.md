@@ -28,7 +28,7 @@
 **Contact:** [CodeText@yahoo.com](mailto:CodeText@yahoo.com)  
 **Website (English):** [https://www.codetext.org?Idioma=_Eng](https://www.codetext.org?Idioma=_Eng)  
 **Website (Español):** [https://www.codetext.org](https://www.codetext.org)
-**Facebook:**:         [https://www.facebook.com/CodeTextSoftware](https://www.facebook.com/CodeTextSoftware)  
+**Facebook:**          [https://www.facebook.com/CodeTextSoftware](https://www.facebook.com/CodeTextSoftware)  
 
 ---
 
