@@ -67,12 +67,6 @@
 
 You can edit these values by hand (with the app closed); they're applied the next time it starts.
 
-### Building from source
-
-Requirements: Python 3.10+, `pip install pyinstaller pymupdf`.
-
-Run `RenamePdfs_isbn.bat` — it builds a single portable `.exe` with PyInstaller (`--onefile --windowed`). Note: a `--onefile` build shows up as **two** processes in Task Manager while running (the self-extracting bootloader plus the actual app); this is normal PyInstaller behavior. See the comments in the `.bat` file if you'd rather build with `--onedir` instead.
-
 ---
 
 ## Español
@@ -132,10 +126,6 @@ Run `RenamePdfs_isbn.bat` — it builds a single portable `.exe` with PyInstalle
 Estos valores se pueden editar a mano (con la app cerrada); se aplican en el siguiente arranque.
 
 ### Compilar desde el código fuente
-
-Requisitos: Python 3.10+, `pip install pyinstaller pymupdf`.
-
-Ejecuta `RenamePdfs_isbn.bat` — genera un único `.exe` portátil con PyInstaller (`--onefile --windowed`). Nota: una compilación `--onefile` aparece como **dos** procesos en el Administrador de tareas mientras se ejecuta (el bootloader autoextraíble más la aplicación real); es un comportamiento normal de PyInstaller. Consulta los comentarios del `.bat` si prefieres compilar con `--onedir`.
 
 ---
 
