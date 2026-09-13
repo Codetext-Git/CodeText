@@ -28,25 +28,25 @@
 - **Cover insertion**: fetches a cover image online and inserts it as page 1 when the file doesn't already have one.
 - **Metadata writing**: title, ISBN, edition and subject can be written back into the PDF's own metadata.
 - **Three run modes**: *simulate* (preview only), *rename*, or *run without renaming* (apply metadata/cover but keep the filename).
-- **OCR support** for scanned/image-only PDFs (requires Tesseract OCR, see [Requirements](#requirements)).
+- **OCR support** for scanned/image-only PDFs, with Tesseract OCR (64-bit) bundled in the installer — nothing extra to set up.
 - **Bilingual interface** (English / Español), switchable at any time from the header — every label, message and log line follows the selected language.
 - **Adjustable process priority** (Real Time / High / Normal / Low), verified against what Windows actually applies — not just what was requested.
 - **Fully themeable**: window colors, button colors, grid and log colors are all configurable from `config.xml`.
 - **Detailed process log**, exportable to a `.txt` file, plus an optional `.csv` report of every processed file.
-- **Portable & self-contained**: single `.exe`, no installation beyond Tesseract for OCR; the CodeText logo is embedded in the executable itself.
+- **Portable & self-contained**: 64-bit installer with Tesseract OCR bundled — no separate installs needed; the CodeText logo is embedded in the executable itself.
 
 ### Requirements
 
-- Windows 10/11.
-- [Tesseract OCR](https://github.com/UB-Mannheim/tesseract/wiki) installed system-wide (or placed in a `.\tesseract\` subfolder next to the executable) — only needed for scanned PDFs without embedded text.
+- Windows 10/11, 64-bit.
 - An internet connection for online lookups (title, publisher, cover).
+
+> **Tesseract OCR is already bundled with the installer** — you don't need to install it separately. If you'd like to update it to a newer version yourself, you can download it from the [official Tesseract OCR page](https://github.com/UB-Mannheim/tesseract/wiki) and place it in the `.\tesseract\` subfolder next to the executable.
 
 ### Installation
 
-1. Download the latest `RenamePdfs_isbn_vX_X_Windows.zip` from the [Releases](../../releases) page (or via the update icon 🔄 inside the app).
-2. Unzip it anywhere.
-3. Install Tesseract OCR (see [Requirements](#requirements)) if you plan to process scanned PDFs.
-4. Run `RenamePdfs_isbn.exe`.
+1. Download [`RenamePdfs_isbn.zip`](download/RenamePdfs_isbn.zip) (or use the update icon 🔄 inside the app, which points to the same file).
+2. Unzip it anywhere and run the installer — it includes Tesseract OCR (64-bit), so there's nothing else to install.
+3. Run `RenamePdfs_isbn.exe`.
 
 ### Usage
 
@@ -92,25 +92,25 @@ Run `RenamePdfs_isbn.bat` — it builds a single portable `.exe` with PyInstalle
 - **Inserción de portada**: obtiene una imagen de portada online y la inserta como página 1 cuando el archivo no tiene ya una.
 - **Escritura de metadatos**: título, ISBN, edición y tema pueden escribirse en los metadatos propios del PDF.
 - **Tres modos de ejecución**: *simular* (solo previsualiza), *renombrar*, o *ejecutar sin renombrar* (aplica metadatos/portada pero conserva el nombre).
-- **Soporte OCR** para PDFs escaneados/solo imagen (requiere Tesseract OCR, ver [Requisitos](#requisitos)).
+- **Soporte OCR** para PDFs escaneados/solo imagen, con Tesseract OCR (64 bits) incluido en el instalador — nada más que configurar.
 - **Interfaz bilingüe** (Español / English), cambiable en cualquier momento desde la cabecera — todos los textos, mensajes y el log siguen el idioma elegido.
 - **Prioridad de proceso ajustable** (Tiempo Real / Alta / Normal / Baja), comprobada contra lo que Windows aplica realmente, no solo lo pedido.
 - **Totalmente personalizable**: colores de ventana, botones, grid y log configurables desde `config.xml`.
 - **Detalle del proceso** exportable a `.txt`, además de un reporte `.csv` opcional de cada archivo procesado.
-- **Portátil y autocontenido**: un solo `.exe`, sin más instalación que Tesseract para el OCR; el logo de CodeText va incrustado en el propio ejecutable.
+- **Portátil y autocontenido**: instalador de 64 bits con Tesseract OCR incluido — no hace falta instalar nada aparte; el logo de CodeText va incrustado en el propio ejecutable.
 
 ### Requisitos
 
-- Windows 10/11.
-- [Tesseract OCR](https://github.com/UB-Mannheim/tesseract/wiki) instalado en el sistema (o colocado en una subcarpeta `.\tesseract\` junto al ejecutable) — solo necesario para PDFs escaneados sin texto embebido.
+- Windows 10/11, de 64 bits.
 - Conexión a internet para las búsquedas online (título, editor, portada).
+
+> **Tesseract OCR ya viene incluido en el instalador** — no hace falta instalarlo aparte. Si quieres actualizarlo tú mismo a una versión más reciente, puedes descargarlo desde la [página oficial de Tesseract OCR](https://github.com/UB-Mannheim/tesseract/wiki) y colocarlo en la subcarpeta `.\tesseract\` junto al ejecutable.
 
 ### Instalación
 
-1. Descarga el último `RenamePdfs_isbn_vX_X_Windows.zip` desde la página de [Releases](../../releases) (o con el icono de actualizar 🔄 dentro de la app).
-2. Descomprímelo donde quieras.
-3. Instala Tesseract OCR (ver [Requisitos](#requisitos)) si vas a procesar PDFs escaneados.
-4. Ejecuta `RenamePdfs_isbn.exe`.
+1. Descarga [`RenamePdfs_isbn.zip`](download/RenamePdfs_isbn.zip) (o usa el icono de actualizar 🔄 dentro de la app, que apunta al mismo archivo).
+2. Descomprímelo donde quieras y ejecuta el instalador — incluye Tesseract OCR (64 bits), así que no hay nada más que instalar.
+3. Ejecuta `RenamePdfs_isbn.exe`.
 
 ### Uso
 
