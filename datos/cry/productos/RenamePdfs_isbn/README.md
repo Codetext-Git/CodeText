@@ -15,7 +15,27 @@
 
 ---
 
-## English
+## English. About CodeText Software
+
+**CodeText** is based in Barcelona, Spain, developing software using the latest desktop and web technologies. Our work focuses on computational semantics, creating intelligent systems to search, extract and encode information in different languages. 
+Our product **Books Explorer** is a semantic search engine available for desktop and web, capable of connecting to different locations where book repositories are stored. 
+We are looking for companies and institutions interested in implementing these products.
+
+---
+
+## Spanish. Sobre CodeText Software
+
+**CodeText** tiene su sede en Barcelona (España) y desarrolla software utilizando las últimas tecnologías de escritorio y web. Nuestra labor se centra en la semántica computacional, creando sistemas inteligentes para buscar, extraer y codificar información en diversos idiomas. 
+Nuestro producto **Books Explorer** es un motor de búsqueda semántica inteligente disponible para escritorio y web, capaz de conectarse a diferentes ubicaciones donde se alojan repositorios de libros. 
+Buscamos empresas e instituciones interesadas en implementar estos productos.
+
+**Contact:** [info@codetext.org](mailto:info@codetext.org)  
+**Website (English):** [https://www.codetext.org?Idioma=_Eng](https://www.codetext.org?Idioma=_Eng)  
+**Website (Español):** [https://www.codetext.org](https://www.codetext.org)
+
+---
+
+## English RenamePdfs_isbn Information.
 
 **RenamePdfs_isbn** is a free Windows tool that scans a folder of PDF and EPUB files, finds the ISBN of each book (from its text, its metadata, or — if the file has no embedded text — via OCR), looks up the real title, publisher, edition and subject online, and renames the file accordingly. It can also write that information back into the PDF metadata and add an online cover as the first page.
 
@@ -69,7 +89,7 @@ You can edit these values by hand (with the app closed); they're applied the nex
 
 ---
 
-## Español
+## Español RenamePdfs_isbn Información.
 
 **RenamePdfs_isbn** es una herramienta gratuita para Windows que analiza una carpeta de archivos PDF y EPUB, detecta el ISBN de cada libro (por su texto, sus metadatos, o mediante OCR si el archivo no tiene texto extraíble), busca online el título real, editor, edición y tema, y renombra el archivo en consecuencia. También puede escribir esa información en los metadatos del PDF y añadir una portada online como primera página.
 
