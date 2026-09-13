@@ -17,17 +17,13 @@
 
 ## English. About CodeText Software
 
-**CodeText** is based in Barcelona, Spain, developing software using the latest desktop and web technologies. Our work focuses on computational semantics, creating intelligent systems to search, extract and encode information in different languages. 
-Our product **Books Explorer** is a semantic search engine available for desktop and web, capable of connecting to different locations where book repositories are stored. 
-We are looking for companies and institutions interested in implementing these products.
+**CodeText** is based in Barcelona (Spain) and develops software using the latest desktop and web technologies. Our work focuses on computational semantics, creating intelligent systems to search, extract, edit, organize, and encode information in various languages. Our product  **Books Explorer** is an intelligent semantic search engine available for desktop and web that can connect to various locations hosting book repositories. We are seeking companies and institutions interested in implementing these products.
 
 ---
 
 ## Spanish. Sobre CodeText Software
 
-**CodeText** tiene su sede en Barcelona (España) y desarrolla software utilizando las últimas tecnologías de escritorio y web. Nuestra labor se centra en la semántica computacional, creando sistemas inteligentes para buscar, extraer y codificar información en diversos idiomas. 
-Nuestro producto **Books Explorer** es un motor de búsqueda semántica inteligente disponible para escritorio y web, capaz de conectarse a diferentes ubicaciones donde se alojan repositorios de libros. 
-Buscamos empresas e instituciones interesadas en implementar estos productos.
+**CodeText** tiene su sede en Barcelona (España) y desarrolla software utilizando las últimas tecnologías de escritorio y web. Nuestra labor se centra en la semántica computacional, creando sistemas inteligentes para buscar, extraer, editar, organizar y codificar información en diversos idiomas. Nuestro producto **Books Explorer** es un motor de búsqueda semántica inteligente disponible para escritorio y web, capaz de conectarse a diferentes ubicaciones donde se alojan repositorios de libros. Buscamos empresas e instituciones interesadas en implementar estos productos.
 
 **Contact:** [CodeText@yahoo.com](mailto:CodeText@yahoo.com)  
 **Website (English):** [https://www.codetext.org?Idioma=_Eng](https://www.codetext.org?Idioma=_Eng)  
