@@ -29,7 +29,7 @@ We are looking for companies and institutions interested in implementing these p
 Nuestro producto **Books Explorer** es un motor de búsqueda semántica inteligente disponible para escritorio y web, capaz de conectarse a diferentes ubicaciones donde se alojan repositorios de libros. 
 Buscamos empresas e instituciones interesadas en implementar estos productos.
 
-**Contact:** [info@codetext.org](mailto:info@codetext.org)  
+**Contact:** [CodeText@yahoo.com](mailto:CodeText@yahoo.com)  
 **Website (English):** [https://www.codetext.org?Idioma=_Eng](https://www.codetext.org?Idioma=_Eng)  
 **Website (Español):** [https://www.codetext.org](https://www.codetext.org)
 
