@@ -61,7 +61,7 @@
 
 ### Installation
 
-1. Download [`RenamePdfs_isbn.zip`](download/RenamePdfs_isbn.zip) (or use the update icon 🔄 inside the app, which points to the same file).
+1. Download [`RenamePdfs_isbn.zip`](download/RenamePdfs_isbn.zip) (or use the update icon "↻" inside the app, which points to the same file).
 2. Unzip it anywhere and run the installer — it includes Tesseract OCR (64-bit), so there's nothing else to install.
 3. Run `RenamePdfs_isbn.exe`.
 
@@ -119,7 +119,7 @@ You can edit these values by hand (with the app closed); they're applied the nex
 
 ### Instalación
 
-1. Descarga [`RenamePdfs_isbn.zip`](download/RenamePdfs_isbn.zip) (o usa el icono de actualizar 🔄 dentro de la app, que apunta al mismo archivo).
+1. Descarga [`RenamePdfs_isbn.zip`](download/RenamePdfs_isbn.zip) (o usa el icono de actualizar ↻ dentro de la app, que apunta al mismo archivo).
 2. Descomprímelo donde quieras y ejecuta el instalador — incluye Tesseract OCR (64 bits), así que no hay nada más que instalar.
 3. Ejecuta `RenamePdfs_isbn.exe`.
 
