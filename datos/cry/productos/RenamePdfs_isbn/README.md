@@ -65,19 +65,6 @@
 - **Requires** an internet connection for online lookups.
 - **Supported Languages**: English and Spanish.
 
-### Installation
-
-1. Download [`RenamePdfs_isbn.zip`](download/RenamePdfs_isbn.zip) (or use the update icon "↻" inside the app, which points to the same file).
-2. Unzip it anywhere and run the installer — it includes Tesseract OCR (64-bit), so there's nothing else to install.
-3. Run `RenamePdfs_isbn.exe`.
-
-### Usage
-
-1. Pick the folder (or individual files) to process with the 📁 button.
-2. Choose a run mode (*simulate*, *rename*, *run without renaming*), the naming format (year/publisher), and the desired options (OCR, metadata, subject, cover, log).
-3. Click **Run**. You can **Pause** or **Cancel** at any point.
-4. Review the results in the grid: ISBN found, new name, status and comments. A `.csv` report and/or `.txt` log can be saved automatically.
-
 ---
 
 ## Español RenamePdfs_isbn Información.
