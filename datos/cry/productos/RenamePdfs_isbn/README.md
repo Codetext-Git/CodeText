@@ -34,30 +34,30 @@
 
 ## English RenamePdfs_isbn Information.
 
-**RenamePdfs_isbn** is a free Windows tool that scans a folder of PDF and EPUB files, finds the ISBN of each book (from its text, its metadata, or — if the file has no embedded text — via OCR), looks up the real title, publisher, edition and subject online, and renames the file accordingly. It can also write that information back into the PDF metadata and add an online cover as the first page.
+**RenamePdfs_isbn** is a free Windows tool that automatically renames PDF and EPUB files according to their ISBN. It detects the ISBN from the text, metadata, or via OCR when the file has no extractable text, searches online for the real title, publisher, edition and subject, and renames the file accordingly. It also saves the retrieved information in the file metadata and tries to add an online cover as the first page when the file does not have one.
 
 ### Features
 
-- **ISBN detection** from embedded text, PDF/EPUB metadata, or OCR (via Tesseract) when the file has no extractable text.
-- **Online lookup** of title, publisher/year and subject (Google Books, Open Library, CrossRef/DOI, and more).
-- **Smart fallbacks**: local title from PDF/EPUB metadata, content-based heuristics, or a plain filename-based search — only when nothing reliable is found does it skip renaming, rather than risking a wrong title.
-- **Configurable naming format**: append the year, the publisher, both, or neither.
-- **Cover insertion**: fetches a cover image online and inserts it as page 1 when the file doesn't already have one.
-- **Metadata writing**: title, ISBN, edition and subject can be written back into the PDF's own metadata.
-- **Three run modes**: *simulate* (preview only), *rename*, or *run without renaming* (apply metadata/cover but keep the filename).
-- **OCR support** for scanned/image-only PDFs, with Tesseract OCR (64-bit) bundled in the installer — nothing extra to set up.
-- **Bilingual interface** (English / Español), switchable at any time from the header — every label, message and log line follows the selected language.
-- **Adjustable process priority** (Real Time / High / Normal / Low), verified against what Windows actually applies — not just what was requested.
-- **Fully themeable**: window colors, button colors, grid and log colors are all configurable from `config.xml`.
-- **Detailed process log**, exportable to a `.txt` file, plus an optional `.csv` report of every processed file.
-- **Portable & self-contained**: 64-bit installer with Tesseract OCR bundled — no separate installs needed; the CodeText logo is embedded in the executable itself.
+- **PDF and ePub support**: process all files in a folder or only the files selected by the user.
+- **OCR support** for text or image-only PDFs with Tesseract OCR (64-bit).
+- **ISBN10 to 13 detection** in the text, metadata, or via OCR when the file has no extractable text.
+- **Online lookup** of title, edition, year, publisher and subject using systems such as Google Books, Open Library and CrossRef/DOI.
+- **Smart alternatives**: title recovered from PDF/EPUB metadata, content heuristics, or a filename-based search. Renaming is skipped only when there is no reliable text, avoiding the risk of an incorrect title.
+- **Configurable naming format**: add the book's year, edition and publisher in parentheses.
+- **Cover insertion**: when the file has no cover, the program tries to obtain an image online and inserts it as the first page.
+- **Metadata writing**: retrieved metadata is saved in the file.
+- **Three execution modes**: *simulate* (performs the complete process without applying changes), *rename*, or *run without renaming* (applies metadata and inserts the cover, but does not rename the file).
+- **Adjustable process priority**.
+- **Customizable design** using multiple themes and manually by editing `config.xml`.
+- **Optional process log** with details in `.txt` format and, additionally, a `.csv` report with comma-separated fields and one file per line.
 
 ### Requirements
 
 - Windows 10/11, 64-bit.
-- An internet connection for online lookups (title, publisher, cover).
+- An internet connection for online lookups.
+- Supported languages: English and Spanish.
 
-> **Tesseract OCR is already bundled with the installer** — you don't need to install it separately. Keep in mind that, when installing it, it offers you the option to select additional languages, besides English, in the “Additional language data” option. If you'd like to update it to a newer version yourself, you can download it from the [official Tesseract OCR page](https://github.com/UB-Mannheim/tesseract/wiki)
+> **Tesseract OCR is already bundled with the installer**, so you don't need to install it separately. When installing it, you can select additional languages besides English using the **“Additional language data”** option.
 
 ### Installation
 
@@ -88,7 +88,7 @@ You can edit these values by hand (with the app closed); they're applied the nex
 
 ## Español RenamePdfs_isbn Información.
 
-**RenamePdfs_isbn** es una herramienta gratuita para Windows que analiza una carpeta de archivos PDF y EPUB, detecta el ISBN de cada libro (por su texto, sus metadatos, o mediante OCR si el archivo no tiene texto extraíble), busca online el título real, editor, edición y tema, y renombra el archivo en consecuencia. También puede escribir esa información en los metadatos del PDF y añadir una portada online como primera página.
+**RenamePdfs_isbn** es una herramienta gratuita para Windows que renombra automáticamente archivos PDF y EPUB según su ISBN. Detecta el ISBN por texto, metadatos o mediante OCR cuando el archivo no tiene texto extraíble, busca online el título real, editor, edición y tema, y renombra el archivo en consecuencia. También guarda la información recuperada en los metadatos del archivo e intenta añadir una portada online como primera página cuando no la tiene.
 
 <p align="center">
   <img src="RenamePdfs_isbn_principal.png" alt="Ventana principal de RenamePdfs_isbn" width="850">
@@ -106,16 +106,16 @@ You can edit these values by hand (with the app closed); they're applied the nex
 - **Soporte OCR** para PDFs escaneados/solo imagen, con Tesseract OCR (64 bits) incluido en el instalador — nada más que configurar.
 - **Interfaz bilingüe** (Español / English), cambiable en cualquier momento desde la cabecera — todos los textos, mensajes y el log siguen el idioma elegido.
 - **Prioridad de proceso ajustable** (Tiempo Real / Alta / Normal / Baja), comprobada contra lo que Windows aplica realmente, no solo lo pedido.
-- **Totalmente personalizable**: colores de ventana, botones, grid y log configurables desde `config.xml`.
-- **Detalle del proceso** exportable a `.txt`, además de un reporte `.csv` opcional de cada archivo procesado.
-- **Portátil y autocontenido**: instalador de 64 bits con Tesseract OCR incluido — no hace falta instalar nada aparte; el logo de CodeText va incrustado en el propio ejecutable.
+- **Diseño personalizable** mediante múltiples temas y manualmente editando `config.xml`.
+- **Archivo de log opcional** con los detalles del procesamiento en formato `.txt` y, además, un informe `.csv` con campos separados por comas y un archivo en cada línea.
 
 ### Requisitos
 
 - Windows 10/11, de 64 bits.
-- Conexión a internet para las búsquedas online (título, editor, portada).
+- Conexión a internet para las búsquedas online.
+- Idiomas soportados: Español e Inglés.
 
-> **Tesseract OCR ya viene incluido en el instalador** — no hace falta instalarlo aparte. Ten en cuenta que, al instalarlo, te ofrece la opción de seleccionar lenguajes adicionales, además del inglés, en la opción "Aditional languaje data". Si quieres actualizarlo tú mismo a una versión más reciente, puedes descargarlo desde la [página oficial de Tesseract OCR](https://github.com/UB-Mannheim/tesseract/wiki).
+> **Tesseract OCR ya viene incluido en el instalador**, por lo que no hace falta instalarlo aparte. Al instalarlo, puedes seleccionar lenguajes adicionales además del inglés mediante la opción **"Additional language data"**.
 
 ### Instalación
 
