@@ -1,0 +1,72 @@
+﻿' --------------------------------------------------------------------
+' -- (c)2016 Cryptics Inc.
+' -- Download.txt.
+' --------------------------------------------------------------------
+[DEFIN]
+DEFIN=100|EMPRESA=Cryptics|FILE=Download.txt|.REV=1.0
+
+[GENERAL]
+NAME=Crypto.zip|VERSION=2.6.0
+
+' ------------------------------------------------------------------------
+' Plantilla para Descargas Remotas download.txt
+'
+' Notas: Las Rutas Dependen del Usuario de Login. Hay que validarse primero 
+'        con el usuario para ver los directorios a los que se puede acceder.
+' ------------------------------------------------------------------------
+' Directorios:
+' Si el Programa se llama Thunder:
+' /downloads/thunder/1.2/download.zip
+'                    2.0/download.zip
+'                    download.txt
+' -------------
+' Ejemplo de Empleo de Secciones, Campos, Propiedades y Valores:
+' 
+' [DOWNLOADS]
+' VERSION=1.2-1.5|.DIRECTORIO=|.DOWNLOAD=|.DESCOMPRIMIR=
+' VERSION=2.0-2.6|.DIRECTORIO=|.DOWNLOAD=|.DESCOMPRIMIR=
+' 
+' Se traduce por:
+' [DOWNLOADS]
+' VERSION=1.2-1.5 -> VERSION.DIRECTORIO
+'                    VERSION.DOWNLOAD  
+'                    VERSION.DESCOMPRIMIR
+' VERSION=2.0-2.6 -> VERSION.DIRECTORIO
+'                    VERSION.DOWNLOAD  
+'                    VERSION.DESCOMPRIMIR
+' Posibles Solicitudes: 
+' 1.- Seccion [DOWNLOADS]. Devuelve: VERSION=1.2-1.5 y VERSION=2.0-2.6, sus Propiedades y sus Valores.
+' 2.- Seccion [DOWNLOADS]. Campo Version 1.3. Devuelve: VERSION=1.2-1.5, sus Propiedades y sus Valores.
+' 3.- Seccion [DOWNLOADS]. Campo Version 1.2. Propiedad DOWNLOAD. Devuelve: El valor de Download.
+' -------------
+' [MENSAJE]
+' MENSAJE=
+' MENSAJEENG=
+' 
+' Posibles Solicitudes: 
+' 1.- Seccion [MENSAJE]. Devuelve: MENSAJE, MENSAJEENG.
+' 2.- Seccion [MENSAJE]. Campo Mensaje. Devuelve: El valor de MENSAJE.
+' -------------------------------------
+
+' UPLOAD, Directorio Alternativo para Subir Informacion Relacionada con la Version. Ej.: /Uploads
+' USERDATAACT, N/NO = No Guardar Datos.
+[DOWNLOADS]
+VERSION=2.1|.DIRECTORIO=|.DOWNLOAD=|.UPLOAD=|.USERDATA=|.USERDATAACT=|.DESCOMPRIMIR=|.EJECUTAR=
+
+[FILTROS]
+NOMBRELIC=|.COM=|.MENSAJE=|.MENSAJEENG=
+EMAILLIC=Cxxasas@Casa.com|.COM=|.MENSAJE=Mensaje a Casas@Casa.com|.MENSAJEENG=
+CODIGOLIC=|.COM=|.MENSAJE=|.MENSAJEENG=
+SERIELIC=|.COM=|.MENSAJE=|.MENSAJEENG=
+IP=|.COM=|.MENSAJE=|.MENSAJEENG=
+BIOS=|.COM=|.MENSAJE=|.MENSAJEENG=
+DISCO=|.COM=|.MENSAJE=|.MENSAJEENG=
+HARD=|.COM=|.MENSAJE=|.MENSAJEENG=
+
+[COMANDOS]
+COM=
+COM=
+
+[PUBLI]
+MENSAJE=Se Encuentran en Preparación las Nuevas Funciones del Programa. Los Nuevos Usuarios Registrados Podrán Descargarlas sin Coste.
+MENSAJEENG=On Preparing the New Features of the Program. The Newly registered users may Download them without cost.
