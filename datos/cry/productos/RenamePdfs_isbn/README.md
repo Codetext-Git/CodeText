@@ -78,18 +78,6 @@
 3. Click **Run**. You can **Pause** or **Cancel** at any point.
 4. Review the results in the grid: ISBN found, new name, status and comments. A `.csv` report and/or `.txt` log can be saved automatically.
 
-### Configuration (`config.xml`)
-
-`config.xml` is created automatically next to the executable on first run, and stores:
-
-- Window size, column widths and log panel height.
-- Last used folder and file filter.
-- Interface language (`<languaje value="en"/>` or `"es"`, English by default).
-- Preferred process priority (`<priority value="highest"/>`, etc.).
-- All interface colors (`<colores .../>`): panel background, field background, selection color, grid scrollbars, button colors, general text color, and the "Process detail" panel's background/text/selection colors.
-
-You can edit these values by hand (with the app closed); they're applied the next time it starts.
-
 ---
 
 ## Español RenamePdfs_isbn Información.
@@ -124,18 +112,6 @@ You can edit these values by hand (with the app closed); they're applied the nex
 - **Sistema Operativo**: Windows 10/11 64bits.
 - **Requiere** conexión a internet para las búsquedas online.
 - **Idiomas Soportados**: Español e Inglés.
-
-### Configuración (`config.xml`)
-
-`config.xml` se crea automáticamente junto al ejecutable en el primer arranque, y guarda:
-
-- Tamaño de ventana, ancho de columnas y alto del panel de log.
-- Última carpeta y filtro de archivos usados.
-- Idioma de la interfaz (`<languaje value="en"/>` o `"es"`, inglés por defecto).
-- Prioridad de proceso preferida (`<priority value="highest"/>`, etc.).
-- Todos los colores de la interfaz (`<colores .../>`): fondo del panel, fondo de campos, color de selección, barras del grid, colores de botones, color de texto general, y fondo/texto/selección del panel "Detalle del proceso".
-
-Estos valores se pueden editar a mano (con la app cerrada); se aplican en el siguiente arranque.
 
 ---
 
