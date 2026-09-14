@@ -57,7 +57,7 @@
 - Windows 10/11, 64-bit.
 - An internet connection for online lookups (title, publisher, cover).
 
-> **Tesseract OCR is already bundled with the installer** — you don't need to install it separately. If you'd like to update it to a newer version yourself, you can download it from the [official Tesseract OCR page](https://github.com/UB-Mannheim/tesseract/wiki) and place it in the `.\tesseract\` subfolder next to the executable.
+> **Tesseract OCR is already bundled with the installer** — you don't need to install it separately. Keep in mind that, when installing it, it offers you the option to select additional languages, besides English, in the “Additional language data” option. If you'd like to update it to a newer version yourself, you can download it from the [official Tesseract OCR page](https://github.com/UB-Mannheim/tesseract/wiki)
 
 ### Installation
 
@@ -115,7 +115,7 @@ You can edit these values by hand (with the app closed); they're applied the nex
 - Windows 10/11, de 64 bits.
 - Conexión a internet para las búsquedas online (título, editor, portada).
 
-> **Tesseract OCR ya viene incluido en el instalador** — no hace falta instalarlo aparte. Si quieres actualizarlo tú mismo a una versión más reciente, puedes descargarlo desde la [página oficial de Tesseract OCR](https://github.com/UB-Mannheim/tesseract/wiki) y colocarlo en la subcarpeta `.\tesseract\` junto al ejecutable.
+> **Tesseract OCR ya viene incluido en el instalador** — no hace falta instalarlo aparte. Ten en cuenta que, al instalarlo, te ofrece la opción de seleccionar lenguajes adicionales, además del inglés, en la opción "Aditional languaje data". Si quieres actualizarlo tú mismo a una versión más reciente, puedes descargarlo desde la [página oficial de Tesseract OCR](https://github.com/UB-Mannheim/tesseract/wiki).
 
 ### Instalación
 
